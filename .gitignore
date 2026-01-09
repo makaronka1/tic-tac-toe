@@ -1,0 +1,52 @@
+# Developer tools' files
+.lite_workspace.lua
+
+# Neutralinojs binaries and builds
+/bin
+/dist
+/tmp
+*.neu
+/resources.neu
+
+# Neutralinojs client (minified) - НЕ ИГНОРИРУЙТЕ ЭТОТ!
+# neutralino.js  <- УДАЛИТЬ ЭТУ СТРОКУ!
+
+# Neutralinojs related files
+.storage
+*.log
+neutralinojs.log
+
+# Скомпилированные исполняемые файлы (ДОБАВИТЬ!)
+tic-tac-toe-*
+tic-tac-toe-win*.exe
+tic-tac-toe-linux*
+tic-tac-toe-mac*
+*.exe
+*.app
+*.dmg
+*.deb
+*.rpm
+
+# Системные файлы (ДОБАВИТЬ!)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE файлы (ДОБАВИТЬ!)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js (если используете) (ДОБАВИТЬ!)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Файлы сборки (ДОБАВИТЬ!)
+*.zip
+*.tar.gz
+/out/
+/build/
+/release/
